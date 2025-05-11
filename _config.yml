@@ -1,0 +1,18 @@
+title: Alex T's Blog
+author: Alex Torrens
+description: "A place for me to dump stuff that I find interesting. No guarantees that anyone else will think the same."
+github_username: ajtorrens # Important for GitHub Pages
+# For GitHub Pages, often it's good to specify the theme like this:
+theme: minima # Minima is a clean, default Jekyll theme. We can change this later.
+
+# If your site is at https://username.github.io/repository-name/
+# then uncomment the following line and set it to /repository-name/
+# baseurl: "/ajtorrens.github.io"
+
+# If your site is at https://username.github.io/
+# then baseurl should be "" or just commented out.
+
+# To ensure GitHub Pages builds correctly, it's good practice to use the github-pages gem.
+# We'll add this to the Gemfile next.
+plugins:
+  - jekyll-feed # For an RSS feed, common for blogs
