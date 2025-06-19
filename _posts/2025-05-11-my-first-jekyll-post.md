@@ -2,7 +2,7 @@
 layout: default # Or a specific 'post' layout if you create one
 title: "Hello, world!"
 date: 2025-05-11 19:00:00 +0100 # Optional: time and timezone
-categories: random # Optional: categorise your post
+categories: meta # Optional: categorise your post
 ---
 
 # Hello world, Jekyll style!
