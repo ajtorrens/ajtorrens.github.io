@@ -21,39 +21,93 @@ _This was first written in early 2025. I then updated the guidance in August 202
 2. Choose your desired area by choosing on the map or searching.
 3. Choose the format to be Garmin Openfietsmap Lite (Latin 1), and add your email address to receive the extract. Click Extract.
 
-	![Choosing the target area in bbbike.org.]({{ "/assets/images/garmin-tips/fig1.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig1.png" | relative_url }}"
+       alt="Choosing the target area in bbbike.org."
+       class="img-medium">
+  		<figcaption>Choosing the target area in bbbike.org.</figcaption>
+	</figure>
 
-	![Confirmation that your extract is being processed (and option to donate!)]({{ "/assets/images/garmin-tips/fig2.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig2.png" | relative_url }}"
+       alt="Confirmation that your extract is being processed (and option to donate!"
+       class="img-medium">
+  		<figcaption>Confirmation that your extract is being processed (and option to donate!)</figcaption>
+	</figure>
 
 4. You should receive an email like the following:
 
-	![Email with link to extract in .zip format.)]({{ "/assets/images/garmin-tips/fig3.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig3.png" | relative_url }}"
+       alt="Email with link to extract in .zip format."
+       class="img-medium">
+  		<figcaption>Email with link to extract in .zip format.</figcaption>
+	</figure>
+
 
 5. Download the zip from the email. Extract the zip, and isolate the `gmapsupp-*.img` file. This is the disk image of the maps. Rename it so you can distinguish it from any others. I'd recommend the region you've chosen :)
 
-	![Double-clicking on the .zip file gives the folder with the same name, where the maps are located.]({{ "/assets/images/garmin-tips/fig4.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig4.png" | relative_url }}"
+       alt="Double-clicking on the .zip file gives the folder with the same name, where the maps are located."
+       class="img-medium">
+  		<figcaption>Double-clicking on the .zip file gives the folder with the same name, where the maps are located.</figcaption>
+	</figure>
 
-	![Contents of the uncompressed directory, including the all-important .img file.]({{ "/assets/images/garmin-tips/fig5.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig5.png" | relative_url }}"
+       alt="Contents of the uncompressed directory, including the all-important .img file."
+       class="img-medium">
+  		<figcaption>Contents of the uncompressed directory, including the all-important .img file.</figcaption>
+	</figure>
 
 6. (For Mac) Download [OpenMTP](https://github.com/ganeshrvel/openmtp) from github. This will be how you add the file to your garmin system.
 7. Open OpenMTP, and connect your watch to your computer with the cable.
 8. Open the downloaded `.img` file on one side, and Root > GARMIN on the other side. _[Edit August 2025 when testing with Garmin Fenix 7 Pro]:_ There are many reasons why OpenMTP may not recognise your device. [Read about the issues linked on the github page.](https://github.com/ganeshrvel/openmtp/issues/276) What worked for me was ensuring that Garmin Express--which can be used to transfer **official** Garmin maps and updates--was completely closed, and not running in the background (Activity Monitor) on my Mac. Then, when restarting OpenMTP, my watch was recognised.
-	![UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device.]({{ "/assets/images/garmin-tips/fig6.png" | relative_url }})
+
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig6.png" | relative_url }}"
+       alt="UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device."
+       class="img-medium">
+  		<figcaption>UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device.</figcaption>
+	</figure>
 
 9. You should be able to easily move the `.img` across, by dragging and dropping. Depending on the size of the file, it may take some time.
-
-	![Transfer process of .img map file from computer to device]({{ "/assets/images/garmin-tips/fig7.png" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig7.png" | relative_url }}"
+       alt="Transfer process of .img map file from computer to device"
+       class="img-medium">
+  		<figcaption>Transfer process of .img map file from computer to device</figcaption>
+	</figure>
 
 10. When you disconnect the watch, it will say ‘Loading Maps…’
-
-	![Behaviour of watch immediately disconnecting from the computer]({{ "/assets/images/garmin-tips/fig8.jpg" | relative_url }})
+	<figure>
+  		<img src="{{ "/assets/images/garmin-tips/fig8.jpg" | relative_url }}"
+       alt="Behaviour of watch immediately disconnecting from the computer"
+       class="img-medium">
+  		<figcaption>Behaviour of watch immediately disconnecting from the computer</figcaption>
+	</figure>
 
 11. Done! The map should just load and function as expected when you navigate within the area you defined.
 
 This is a trail in Yosemite National Park, California, as an example.
-![Examples of how a GPX Route (created in Strava) appears using the new map]({{ "/assets/images/garmin-tips/fig9.jpg" | relative_url }})
-![Examples of how a GPX Route (created in Strava) appears using the new map]({{ "/assets/images/garmin-tips/fig10.jpg" | relative_url }})
-![Examples of how a GPX Route (created in Strava) appears using the new map]({{ "/assets/images/garmin-tips/fig11.jpg" | relative_url }})
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig9.jpg" | relative_url }}"
+   alt="Examples of how a GPX Route (created in Strava) appears using the new map"
+   class="img-medium">
+		<figcaption>Examples of how a GPX Route (created in Strava) appears using the new map</figcaption>
+</figure>
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig10.jpg" | relative_url }}"
+   alt="Examples of how a GPX Route (created in Strava) appears using the new map"
+   class="img-medium">
+</figure>
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig11.jpg" | relative_url }}"
+   alt="Examples of how a GPX Route (created in Strava) appears using the new map"
+   class="img-medium">
+</figure>
+
 
 ## Update August 2025
 
@@ -63,14 +117,36 @@ Most are self-explanatory except for:
 - China ML - China Mainland
 - SGMYVNPH - Singapore, Malaysia, Vietnam, Philippines
 - THID - Thailand and Indonesia
+
 You can download these via the watch (when charging and connecting to WiFi) but it’s quicker to do via the computer and [Garmin Express](https://www.garmin.com/en-XD/software/express/). This is probably also the quickest way to get updates, including the pre-installed ski and golf maps.
 There are some notable exceptions, like India. I actually have a trip to India upcoming so I started to look for a non-Garmin version. This led me to the [https://garmin.opentopomap.org/](https://garmin.opentopomap.org/) website. This, in effect, can replace steps 1-4 above. You choose your region, and download the ZIP straight away. It tells you the download size, and gives you the option to add contour lines (I haven’t tested this yet). You can then extract the `.img` from the zip and add to the watch via OpenMTP as before. Word of Caution: The watch can only connect to one programme at a time. For OpenMTP to correctly find and display the watch, you need to fully quit Garmin Express and stop any background activities. OpenMTP is a free open source app, implying there’s no obligation for the author(s) to fix any issues, but [best-effort advice for troubleshooting is described on GitHub](https://github.com/ganeshrvel/openmtp/issues/276).
 
 Once I’d downloaded the India region above, and copied it to the device, you can verify that it had transferred correctly by checking in the watch's maps settings (Settings > Map > Map Manager). Your new map should be in the list.
 
-![New map info on the watch]({{ "/assets/images/garmin-tips/fig12.jpg" | relative_url }})
-![Example of the new map when viewing a premade course.]({{ "/assets/images/garmin-tips/fig13.jpg" | relative_url }})
-![Mapping options available from Garmin Express 1/2]({{ "/assets/images/garmin-tips/fig14.png" | relative_url }})
-![Mapping options available from Garmin Express 2/2]({{ "/assets/images/garmin-tips/fig15.png" | relative_url }})
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig12.jpg" | relative_url }}"
+   alt="New map info on the watch"
+   class="img-medium">
+		<figcaption>New map info on the watch</figcaption>
+</figure>
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig13.jpg" | relative_url }}"
+   alt="Example of the new map when viewing a premade course."
+   class="img-medium">
+		<figcaption>Example of the new map when viewing a premade course.</figcaption>
+</figure>
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig14.png" | relative_url }}"
+   alt="Mapping options available from Garmin Express 1/2"
+   class="img-medium">
+		<figcaption>Mapping options available from Garmin Express 1/2</figcaption>
+</figure>
+<figure>
+		<img src="{{ "/assets/images/garmin-tips/fig15.png" | relative_url }}"
+   alt="Mapping options available from Garmin Express 2/2"
+   class="img-medium">
+		<figcaption>Mapping options available from Garmin Express 2/2</figcaption>
+</figure>
+
 
 

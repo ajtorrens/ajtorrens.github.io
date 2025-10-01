@@ -30,45 +30,73 @@
   <li>
     <p>Choose the format to be Garmin Openfietsmap Lite (Latin 1), and add your email address to receive the extract. Click Extract.</p>
 
-    <p><img src="/assets/images/garmin-tips/fig1.png" alt="Choosing the target area in bbbike.org." /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig1.png" alt="Choosing the target area in bbbike.org." class="img-medium" />
+  		<figcaption>Choosing the target area in bbbike.org.</figcaption>
+ </figure>
 
-    <p><img src="/assets/images/garmin-tips/fig2.png" alt="Confirmation that your extract is being processed (and option to donate!)" /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig2.png" alt="Confirmation that your extract is being processed (and option to donate!" class="img-medium" />
+  		<figcaption>Confirmation that your extract is being processed (and option to donate!)</figcaption>
+ </figure>
   </li>
   <li>
     <p>You should receive an email like the following:</p>
 
-    <p><img src="/assets/images/garmin-tips/fig3.png" alt="Email with link to extract in .zip format.)" /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig3.png" alt="Email with link to extract in .zip format." class="img-medium" />
+  		<figcaption>Email with link to extract in .zip format.</figcaption>
+ </figure>
   </li>
   <li>
     <p>Download the zip from the email. Extract the zip, and isolate the <code class="language-plaintext highlighter-rouge">gmapsupp-*.img</code> file. This is the disk image of the maps. Rename it so you can distinguish it from any others. I’d recommend the region you’ve chosen :)</p>
 
-    <p><img src="/assets/images/garmin-tips/fig4.png" alt="Double-clicking on the .zip file gives the folder with the same name, where the maps are located." /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig4.png" alt="Double-clicking on the .zip file gives the folder with the same name, where the maps are located." class="img-medium" />
+  		<figcaption>Double-clicking on the .zip file gives the folder with the same name, where the maps are located.</figcaption>
+ </figure>
 
-    <p><img src="/assets/images/garmin-tips/fig5.png" alt="Contents of the uncompressed directory, including the all-important .img file." /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig5.png" alt="Contents of the uncompressed directory, including the all-important .img file." class="img-medium" />
+  		<figcaption>Contents of the uncompressed directory, including the all-important .img file.</figcaption>
+ </figure>
   </li>
   <li>(For Mac) Download <a href="https://github.com/ganeshrvel/openmtp">OpenMTP</a> from github. This will be how you add the file to your garmin system.</li>
   <li>Open OpenMTP, and connect your watch to your computer with the cable.</li>
   <li>
-    <p>Open the downloaded <code class="language-plaintext highlighter-rouge">.img</code> file on one side, and Root &gt; GARMIN on the other side. <em>[Edit August 2025 when testing with Garmin Fenix 7 Pro]:</em> There are many reasons why OpenMTP may not recognise your device. <a href="https://github.com/ganeshrvel/openmtp/issues/276">Read about the issues linked on the github page.</a> What worked for me was ensuring that Garmin Express–which can be used to transfer <strong>official</strong> Garmin maps and updates–was completely closed, and not running in the background (Activity Monitor) on my Mac. Then, when restarting OpenMTP, my watch was recognised.
- <img src="/assets/images/garmin-tips/fig6.png" alt="UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device." /></p>
-  </li>
-  <li>
-    <p>You should be able to easily move the <code class="language-plaintext highlighter-rouge">.img</code> across, by dragging and dropping. Depending on the size of the file, it may take some time.</p>
+    <p>Open the downloaded <code class="language-plaintext highlighter-rouge">.img</code> file on one side, and Root &gt; GARMIN on the other side. <em>[Edit August 2025 when testing with Garmin Fenix 7 Pro]:</em> There are many reasons why OpenMTP may not recognise your device. <a href="https://github.com/ganeshrvel/openmtp/issues/276">Read about the issues linked on the github page.</a> What worked for me was ensuring that Garmin Express–which can be used to transfer <strong>official</strong> Garmin maps and updates–was completely closed, and not running in the background (Activity Monitor) on my Mac. Then, when restarting OpenMTP, my watch was recognised.</p>
 
-    <p><img src="/assets/images/garmin-tips/fig7.png" alt="Transfer process of .img map file from computer to device" /></p>
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig6.png" alt="UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device." class="img-medium" />
+  		<figcaption>UI of OpenMTP. You can see the pre-existing map images on the RHS, already stored on the device.</figcaption>
+ </figure>
   </li>
-  <li>
-    <p>When you disconnect the watch, it will say ‘Loading Maps…’</p>
-
-    <p><img src="/assets/images/garmin-tips/fig8.jpg" alt="Behaviour of watch immediately disconnecting from the computer" /></p>
+  <li>You should be able to easily move the <code class="language-plaintext highlighter-rouge">.img</code> across, by dragging and dropping. Depending on the size of the file, it may take some time.
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig7.png" alt="Transfer process of .img map file from computer to device" class="img-medium" />
+  		<figcaption>Transfer process of .img map file from computer to device</figcaption>
+ </figure>
+  </li>
+  <li>When you disconnect the watch, it will say ‘Loading Maps…’
+    <figure>
+  		<img src="/assets/images/garmin-tips/fig8.jpg" alt="Behaviour of watch immediately disconnecting from the computer" class="img-medium" />
+  		<figcaption>Behaviour of watch immediately disconnecting from the computer</figcaption>
+</figure>
   </li>
   <li>Done! The map should just load and function as expected when you navigate within the area you defined.</li>
 </ol>
 
-<p>This is a trail in Yosemite National Park, California, as an example.
-<img src="/assets/images/garmin-tips/fig9.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" />
-<img src="/assets/images/garmin-tips/fig10.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" />
-<img src="/assets/images/garmin-tips/fig11.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" /></p>
+<p>This is a trail in Yosemite National Park, California, as an example.</p>
+<figure>
+		<img src="/assets/images/garmin-tips/fig9.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" class="img-medium" />
+		<figcaption>Examples of how a GPX Route (created in Strava) appears using the new map</figcaption>
+</figure>
+<figure>
+		<img src="/assets/images/garmin-tips/fig10.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" class="img-medium" />
+</figure>
+<figure>
+		<img src="/assets/images/garmin-tips/fig11.jpg" alt="Examples of how a GPX Route (created in Strava) appears using the new map" class="img-medium" />
+</figure>
 
 <h2 id="update-august-2025">Update August 2025</h2>
 
@@ -78,17 +106,30 @@ Most are self-explanatory except for:</p>
 <ul>
   <li>China ML - China Mainland</li>
   <li>SGMYVNPH - Singapore, Malaysia, Vietnam, Philippines</li>
-  <li>THID - Thailand and Indonesia
-You can download these via the watch (when charging and connecting to WiFi) but it’s quicker to do via the computer and <a href="https://www.garmin.com/en-XD/software/express/">Garmin Express</a>. This is probably also the quickest way to get updates, including the pre-installed ski and golf maps.
-There are some notable exceptions, like India. I actually have a trip to India upcoming so I started to look for a non-Garmin version. This led me to the <a href="https://garmin.opentopomap.org/">https://garmin.opentopomap.org/</a> website. This, in effect, can replace steps 1-4 above. You choose your region, and download the ZIP straight away. It tells you the download size, and gives you the option to add contour lines (I haven’t tested this yet). You can then extract the <code class="language-plaintext highlighter-rouge">.img</code> from the zip and add to the watch via OpenMTP as before. Word of Caution: The watch can only connect to one programme at a time. For OpenMTP to correctly find and display the watch, you need to fully quit Garmin Express and stop any background activities. OpenMTP is a free open source app, implying there’s no obligation for the author(s) to fix any issues, but <a href="https://github.com/ganeshrvel/openmtp/issues/276">best-effort advice for troubleshooting is described on GitHub</a>.</li>
+  <li>THID - Thailand and Indonesia</li>
 </ul>
+
+<p>You can download these via the watch (when charging and connecting to WiFi) but it’s quicker to do via the computer and <a href="https://www.garmin.com/en-XD/software/express/">Garmin Express</a>. This is probably also the quickest way to get updates, including the pre-installed ski and golf maps.
+There are some notable exceptions, like India. I actually have a trip to India upcoming so I started to look for a non-Garmin version. This led me to the <a href="https://garmin.opentopomap.org/">https://garmin.opentopomap.org/</a> website. This, in effect, can replace steps 1-4 above. You choose your region, and download the ZIP straight away. It tells you the download size, and gives you the option to add contour lines (I haven’t tested this yet). You can then extract the <code class="language-plaintext highlighter-rouge">.img</code> from the zip and add to the watch via OpenMTP as before. Word of Caution: The watch can only connect to one programme at a time. For OpenMTP to correctly find and display the watch, you need to fully quit Garmin Express and stop any background activities. OpenMTP is a free open source app, implying there’s no obligation for the author(s) to fix any issues, but <a href="https://github.com/ganeshrvel/openmtp/issues/276">best-effort advice for troubleshooting is described on GitHub</a>.</p>
 
 <p>Once I’d downloaded the India region above, and copied it to the device, you can verify that it had transferred correctly by checking in the watch’s maps settings (Settings &gt; Map &gt; Map Manager). Your new map should be in the list.</p>
 
-<p><img src="/assets/images/garmin-tips/fig12.jpg" alt="New map info on the watch" />
-<img src="/assets/images/garmin-tips/fig13.jpg" alt="Example of the new map when viewing a premade course." />
-<img src="/assets/images/garmin-tips/fig14.png" alt="Mapping options available from Garmin Express 1/2" />
-<img src="/assets/images/garmin-tips/fig15.png" alt="Mapping options available from Garmin Express 2/2" /></p>
+<figure>
+		<img src="/assets/images/garmin-tips/fig12.jpg" alt="New map info on the watch" class="img-medium" />
+		<figcaption>New map info on the watch</figcaption>
+</figure>
+<figure>
+		<img src="/assets/images/garmin-tips/fig13.jpg" alt="Example of the new map when viewing a premade course." class="img-medium" />
+		<figcaption>Example of the new map when viewing a premade course.</figcaption>
+</figure>
+<figure>
+		<img src="/assets/images/garmin-tips/fig14.png" alt="Mapping options available from Garmin Express 1/2" class="img-medium" />
+		<figcaption>Mapping options available from Garmin Express 1/2</figcaption>
+</figure>
+<figure>
+		<img src="/assets/images/garmin-tips/fig15.png" alt="Mapping options available from Garmin Express 2/2" class="img-medium" />
+		<figcaption>Mapping options available from Garmin Express 2/2</figcaption>
+</figure>
 
 
     </main>
