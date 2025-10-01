@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Llms</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+<body>
+    <header>
+        <h1><a href="/">Alex T's Blog</a></h1>
+        <p>A place for me to dump stuff that I find interesting. No guarantees that anyone else will think the same.</p>
+    </header>
+    <main>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Llms</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-06-19T00:00:00+01:00" itemprop="datePublished">Jun 19, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <hr />
+<p>layout: default # Or a specific ‘post’ layout if you create one
+title: “Language Models and AI: June 2025 Edit”
+date: 2025-05-31 19:00:00 +0100 # Optional: time and timezone
+categories: thoughts # Optional: categorise your post</p>
+
+<h1 id="language-models-and-ai-june-2025-edit">Language models and AI: June 2025 Edit</h1>
+
+<p>Let me start by saying I am not a massive fan of the term AI. It used to be an okay abbreviation for the scientific discipline of Artificial Intelligence—indeed, a previous director of mine has a PhD in AI from thirty years ago—but now it’s evolved to become a vague buzzword that doesn’t actually mean much.
+AI is also not some future end goal or state… there are many applications and implementations of AI already out there in use. Content recommendation algoriths may be the most used version to the general person, however “AI” is finding uses in weather prediction, process optimisation, drug discovery and medical diagnoses.
+And then, of course, there’s ChatGPT.
+ChatGPT is an example of a <strong>Large Language Model (LLM)</strong>. Since ChatGPT—and its creator, OpenAI—were the first to release such an impressive chatbot with widescale adoption, it remains the most popular product and application of AI ever. The name ChatGPT may almost be at risk at being genericised! Whilst they became the first to mass-market, they are not the only player in this space. Google’s Gemini (my personal tool of choice), Anthropic’s Claude, XAI’s Grok, and myriad others are now out there and possible to use.
+You will have noticed that these have been integrated <em>everywhere</em>… in all the enterprise tools I use at work, WhatsApp, even Google Search itself. It’s a bit overkill, if you ask me. But I don’t see this trend slowing down anytime soon. AI is the flavour of the decade so far, just like Blockchain and Quantum Computing before it.</p>
+
+<h2 id="what-is-a-language-model">What is a Language Model?</h2>
+<p>In essence, an LLM is a word predction machine. You feed it a sample of text, and it will predict and <strong>G</strong>enerate the most likely next word in the chain. <em>How</em> it does this is incredibly complex and computationally intensive, requiring the <strong>p</strong>retraining of hundreds of billions of parameters, working in 120-dimensional space and multiplying together <em>massive</em> matrices in objects called <strong>T</strong>ransformers. (That’s the <strong>GPT</strong> in ChatGPT, by the way.) This process is out of scope here, but I strongly encourage you to check our 3Blue1Brown’s <a href="https://www.3blue1brown.com/topics/neural-networks">amazing series</a> on deep learning, neural networks and language models. Grant’s work is some of the most high quality on the internet in my opinion, and it’s all free. He has even open-sourced his own <a href="https://github.com/ManimCommunity/manim">animation engine</a> for the visuals. Something I want to play around with more in the future…</p>
+
+<h2 id="how-do-i-use-llms">How do <em>I</em> use LLMs?</h2>
+<p>Let me start by stating that I am not an expert, nor a power user of these models. I do pay for Gemini Pro, which is less that £20 per month, which gets me access to Gemini 2.5 Pro, which as of writing is top of most <a href="https://lmarena.ai/leaderboard">leaderboards</a> for general-purpose LLMs. I have personally hitched my wagon to the the Google horse given their immense resources, legacy of AI research, and integration with the other Google services I frequently use. That’s not to say that it’s currently the best for everything, but it’s a great general purpose model for someone who cannot justify paying for multiple AI subscriptions.
+Again, there is so much I’ve not really experimented with… Fully AI software development (“Vibe Coding”), image and video generation (more on that below), and AI agents and workflows.
+However, I do use Gemini on an almost daily basis, for a myriad of tasks in my personal and professional life. <strong><em>Note of caution:</em></strong> my company has provided us enterprise licenses of Gemini, meaning our chats are not saved and used to further train the models. The same cannot be said for most free/personal versions of these models so I caution you sharing highly personal and/or confidential information.
+An exception to this warning to this is models that you locally host and run, and therefore can be completely disconnected from the internet. However, given the sheer size and resources required to run the largest models, this is not available to most people. I will talk more about this below.
+In my work and personal life, I find LLMs incredible useful for summarisations, translations, image-to-text descriptions, developing questions/topics where I’m out of the loop, coding help, legal text interpretation, cross-referencing documents, finding snyonyms, rhymes and alliterations for captions, and ELI5s. I’m sure there’s some things that I’ve missed out here.</p>
+
+<p>Some of the things people have built using these models is AMAZING, and I believe these models are here to stay and will become a commodity. I don’t think you need to learn how they work deep-down, but for desk-based “knowledge” jobs, knowing when to use them is going to be <strong>critical</strong>. I personally think they will not replace a massive amount of jobs <em>yet</em>, but they can certainly increse productivity and output.</p>
+
+<h2 id="open-source-ai-models">Open Source AI Models</h2>
+<p>Most of the models commonly talked about are commercial, proprietary or closed-source. This means that a private company has created these, have perhaps commercialised them, and don’t want to share too much <a href="https://arstechnica.com/ai/2025/04/deepmind-is-holding-back-release-of-ai-research-to-give-google-an-edge/">special sauce</a> with others.
+However—much like with traditional software applications—there is a thriving community of open source and source-available language models which can be viewed, modified and downloaded for personal (and even commercial) use.
+<a href="https://huggingface.co/">HuggingFace</a> has become the platform of choice for open source machine learning models. There, you can explore, interact with, and test drive models before downloading and running them.
+I personally have only tried downloading one LLM for use locally: a small version of Meta’s <a href="https://www.llama.com/">LLAMA</a> 3.1 model, using <a href="https://ollama.com/">Ollama</a>. Even this was 4 GB, and performs not too bad given its size and the laptop that I’m running it on. I initially experimented with it to allow me to enter more personal and confidential information (since the models runs locally, not connected to the internet and is not hosted by some company).
+As I was writing this section, I decided to download DeepSeek’s 8B parameter “thinking” model (~5.5 GB)—again using Ollama—and wow this is impressive. Lots more experimentation to do this, but DeepSeek’s work is genuinely impressive.
+Earlier in 2025, Chinese AI startup <a href="https://www.deepseek.com/en">DeepSeek</a> made some serious waves in the LLM world with their R1 reasoning model which performs almost on-par with the leading commercial western models. Why the hype? This model is <em>drastically</em> less resource intensive and is open source with an <em>incredibly permissive</em> MIT license (read: you can basically do whatever you want with it, for whatever purpose, including commercial).
+Now, there are genuine concerns that have been raised over the filtering and training of a chinese-developed model—censorship perhaps front of mind to most—however this does not appear to be a problem in my downloaded “distilled” version.
+It’s genuinely exciting to me to see widely-available, open source LLMs go toe-to-toe with commercial ones from tech giants. Who knows how the future in this space will unfold.</p>
+<h2 id="on-image-and-video-generation">On image and video generation</h2>
+
+<h2 id="environmental-concerns">Environmental concerns</h2>
+
+  </div><a class="u-url" href="/2025/06/19/llms.html" hidden></a>
+</article>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Alex Torrens</p>
+    </footer>
+</body>
+</html>
