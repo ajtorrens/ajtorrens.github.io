@@ -9,7 +9,7 @@ title: Home
   {% for post in site.posts limit:10 %}
     <li>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p><small>{{ post.date | date: "%B %d, %Y" }}</small></p>
+      <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
       {{ post.excerpt }}
     </li>
   {% endfor %}

@@ -8,7 +8,7 @@ title: Archive
 <ul>
   {% for post in site.posts %}
     <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
