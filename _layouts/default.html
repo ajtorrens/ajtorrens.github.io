@@ -44,6 +44,117 @@
           Pages</a>.</span>
     </footer>
   </main>
+
+  <!-- Lightbox Modal (Global) -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close-btn">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="caption"></div>
+  </div>
+
+  <style>
+    /* Photo Grid Styles */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .photo-grid img {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      object-fit: cover;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+
+    .photo-grid img:hover {
+      transform: scale(1.02);
+    }
+
+    /* Lightbox Styles */
+    .lightbox {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      padding-top: 60px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .lightbox-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 1000px;
+      max-height: 80vh;
+      object-fit: contain;
+      animation-name: zoom;
+      animation-duration: 0.3s;
+    }
+
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+      font-size: 1.2rem;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .close-btn:hover,
+    .close-btn:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0)
+      }
+
+      to {
+        transform: scale(1)
+      }
+    }
+  </style>
+
+  <script>
+    function openLightbox(img) {
+      var lightbox = document.getElementById("lightbox");
+      var lightboxImg = document.getElementById("lightbox-img");
+      var captionText = document.getElementById("caption");
+
+      lightbox.style.display = "block";
+      lightboxImg.src = img.src;
+      captionText.innerHTML = img.alt;
+    }
+
+    function closeLightbox() {
+      document.getElementById("lightbox").style.display = "none";
+    }
+  </script>
 </body>
 
 </html>
