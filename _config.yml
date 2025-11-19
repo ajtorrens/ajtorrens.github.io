@@ -3,7 +3,7 @@ author: Alex Torrens
 description: "A place for me to dump stuff that I find interesting. No guarantees that anyone else will think the same."
 github_username: ajtorrens # Important for GitHub Pages
 # For GitHub Pages, often it's good to specify the theme like this:
-theme: minima # Minima is a clean, default Jekyll theme. We can change this later.
+theme: jekyll-theme-cayman # Cayman theme provides dark mode and modern styling
 
 # If your site is at https://username.github.io/repository-name/
 # then uncomment the following line and set it to /repository-name/
