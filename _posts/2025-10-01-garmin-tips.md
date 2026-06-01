@@ -2,7 +2,8 @@
 layout: default # Or a specific 'post' layout if you create one
 title: "Custom Maps on Garmin Devices"
 date: 2025-10-01 22:00:00 +0100 # Optional: time and timezone
-categories: tips, sports, tech # Optional: categorise your post
+categories: sport # Optional: categorise your post
+tags: [garmin, gps, cycling, wearables, strava, openmtp, maps]
 ---
 
 # Steps to get custom maps on Garmin wearables

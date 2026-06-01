@@ -2,7 +2,8 @@
 layout: default # Or a specific 'post' layout if you create one
 title: "Trip Report: Three Valleys Skiing"
 date: 2025-05-12 19:00:00 +0100 # Optional: time and timezone
-categories: thoughts # Optional: categorise your post
+categories: travel # Optional: categorise your post
+tags: [skiing, travel, france, sports, gear, vegan]
 ---
 
 # Trip Report: Three Valleys Skiing

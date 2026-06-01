@@ -3,6 +3,7 @@ layout: default # Or a specific 'post' layout if you create one
 title: "Half a decade as a Herbivore: In hinsight"
 date: 2025-05-12 19:00:00 +0100 # Optional: time and timezone
 categories: life # Optional: categorise your post
+tags: [vegan, diet, life, health, environment]
 ---
 
 # Half a decade as a Herbivore: In hinsight
