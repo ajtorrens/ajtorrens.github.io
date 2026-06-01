@@ -16,3 +16,7 @@ theme: jekyll-theme-cayman # Cayman theme provides dark mode and modern styling
 # We'll add this to the Gemfile next.
 plugins:
   - jekyll-feed # For an RSS feed, common for blogs
+
+# Analytics Settings
+# Sign up at cloud.umami.is, create a website, and paste the Website ID below:
+umami_website_id: "d65ff5a3-d8f2-44b5-a5e1-a7f5d04114d4"
